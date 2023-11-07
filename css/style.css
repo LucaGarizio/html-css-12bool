@@ -1,19 +1,30 @@
 [class*="col-"] {
     border: 1px solid white;
     background-color: #006cfa;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
+}
+
+.text-align{
+    text-align: center;
 }
 
 span{
     color:#fff; 
 }
 
+.padding{
+    padding: 1rem;
+}
+
 .spacer{
     margin-bottom: 2rem;
+}
+
+.spacer-1{
+    margin: 1rem 0;
+}
+
+.spacer-2{
+    margin: 2rem 0;
 }
 
 .row{
@@ -26,6 +37,5 @@ span{
 
 .green{
     background-color: limegreen;
-    height: 2.5rem;
     border: 1px solid blue;
 }
