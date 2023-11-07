@@ -1,5 +1,33 @@
-/* debug */
+
 [class*="col-"] {
-    border: 1px solid black;
-    height: 150px;
+    border: 1px solid white;
+    background-color: #006cfa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+}
+
+span{
+    color:#fff; 
+}
+
+.spacer{
+    margin-bottom: 2rem;
+}
+
+.row{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ml-mr{
+    margin: 0 10px;
+}
+
+.green{
+    background-color: limegreen;
+    height: 2.5rem;
+    border-color: blue;
 }

@@ -19,6 +19,11 @@
     flex-wrap: wrap;
 }
 
+.flex{
+    display: flex;
+}
+
+
 /* stile colonne */
 [class*="col-"] {
     flex: 0 0 auto;
@@ -146,6 +151,10 @@
 
 .center-x{
     justify-content: center;
+}
+
+.flex{
+    display: flex;
 }
 
 .center-y{
