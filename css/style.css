@@ -19,15 +19,15 @@ span{
 
 .row{
     width: 100%;
-    margin: 0 auto;
 }
 
 .ml-mr{
-    margin: 0 10px;
+    margin: 0 2%;
 }
+
+.row
 
 .green{
     background-color: limegreen;
     height: 2.5rem;
-    border-color: blue;
 }
