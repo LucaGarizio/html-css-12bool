@@ -19,6 +19,46 @@
     flex-wrap: wrap;
 }
 
+/* flex rules */
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.start-x{
+    justify-content: flex-start;
+}
+
+.center-x{
+    justify-content: center;
+}
+
+.end-x{
+    justify-content: flex-end;
+}
+
+.top-y{
+    align-items:flex-start;
+}
+
+.center-y{
+    align-items: center;
+}
+
+.bottom-y{
+    align-items: flex-end;
+}
 
 
 
@@ -142,22 +182,6 @@
     margin-left: calc((100% / 12) * 12);
 }
 
-/* flex rules */
-.between{
-    justify-content: space-between;
-}
-
-.center-x{
-    justify-content: center;
-}
-
-.flex{
-    display: flex;
-}
-
-.center-y{
-    align-items: center;
-}
 
 /* mediaquery */
 /* Small*/
